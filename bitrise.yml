@@ -31,6 +31,7 @@ workflows:
           run_if: true
           inputs:
             - upload_path: $UPLOAD_PATH
+            - custom_id: testingApp
             - browserstack_username: $BROWSERSTACK_USERNAME
             - browserstack_access_key: $BROWSERSTACK_ACCESS_KEY
       - script:
